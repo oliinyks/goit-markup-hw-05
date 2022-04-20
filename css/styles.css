@@ -613,3 +613,22 @@ color: var(--primary-bg-color);
 .social-link > a:focus{
 	background-color: var(--accent-color);
 }
+.subscription {
+	margin-left: 93px;
+}
+.subscription-box{
+	display: flex;
+}
+
+.footer-button {
+	position: relative;
+
+	justify-content: center;
+	margin-left: 12px;
+}
+.button-send {
+	position: absolute;
+	right: 2;
+	bottom: 20;
+	transform: translate(-2%, -20%);
+}
